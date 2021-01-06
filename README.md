@@ -1,17 +1,11 @@
-# Astray
+# Mountkirk Games Implementation on Google Compute Engine or Managed Instance Group
 
-A WebGL maze game built with Three.js and Box2dWeb. Play it here: http://wwwtyro.github.com/Astray/
+A WebGL maze game built with Three.js and Box2dWeb. 
+Credits & Source from: https://github.com/wwwtyro/Astray
 
 ### Launching
 
-There are several ways to launch the game. Here is the simplest:
-
-1. Clone or download the repository
-2. Navigate to Astray's directory
-3. Start 'python -m SimpleHTTPServer' in your shell (for python 3.0 and above type 'python -m http.server' in your shell)
-4. Open 'localhost:8000' in your browser
-5. Enjoy!
-
-### License
-
-I don't believe in them. You can order your bits however you please.
+1. Provision a Google Compute Engine (GCE) with Apache Web Server anf Git Installed
+2. Clone or download the repository to /var/www/html
+3. Open 'http://EXTERNAL-IP-GCE/MountkirkGames' in your browser
+4. Enjoy!
