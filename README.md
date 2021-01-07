@@ -5,7 +5,7 @@ Credits & Source from: https://github.com/wwwtyro/Astray
 
 ### Launching
 
-1. Provision a Google Compute Engine (GCE) with Apache Web Server and Git Installed using below startup script <br/>
+1. Provision a Google Compute Engine (GCE) with Apache Web Server and Git Installed using below startup script. <br/><br/>
 apt update <br/>
 apt install -y git <br/>
 apt install -y apache2 <br/>
