@@ -8,7 +8,7 @@ Credits & Source from: https://github.com/wwwtyro/Astray
 1. Provision a Google Compute Engine (GCE) with Apache Web Server and Git Installed using below startup script. <br/><br/>
 apt update <br/>
 apt install -y git <br/>
-apt install -y apache2 <br/>
+apt install -y nginx <br/>
 cd /var/www/html <br/>
 git clone https://github.com/learngcpwithmahesh/MountkirkGames.git <br/>
 
